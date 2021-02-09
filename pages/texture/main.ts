@@ -4,7 +4,6 @@ import { EllipseShape, RectangleShape, PolygonShape, BezierShape } from "../../l
 import { Color } from "../../lib/kreslo/styles/Color.js";
 import { WorleyNoise } from "../../lib/kreslo/textures/WorleyNoise.js";
 import { BezierPoint } from "../../lib/kreslo/units/BezierPoint.js";
-import { Vector } from "../../__source/units/Vector.js";
 
 async function init() {
     const canvasEl = document.getElementById('canvas')! as HTMLCanvasElement;
