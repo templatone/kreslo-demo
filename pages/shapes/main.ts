@@ -1,8 +1,4 @@
-import { Engine } from "../../lib/kreslo/core/Engine.js";
-import { Fill, Stroke } from "../../lib/kreslo/properties/index.js";
-import { EllipseShape, RectangleShape, PolygonShape, BezierShape } from "../../lib/kreslo/renderables/index.js";
-import { Color } from "../../lib/kreslo/styles/Color.js";
-import { BezierPoint } from "../../lib/kreslo/units/BezierPoint.js";
+import { BezierPoint, BezierShape, Color, EllipseShape, Engine, Fill, RectangleShape, Stroke } from "../../lib/kreslo/kreslo.js";
 
 
 const canvasEl = document.getElementById('canvas')! as HTMLCanvasElement;

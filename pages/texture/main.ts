@@ -1,9 +1,7 @@
-import { Engine } from "../../lib/kreslo/core/Engine.js";
-import { Fill, Stroke } from "../../lib/kreslo/properties/index.js";
-import { EllipseShape, RectangleShape, PolygonShape, BezierShape } from "../../lib/kreslo/renderables/index.js";
-import { Color } from "../../lib/kreslo/styles/Color.js";
-import { WorleyNoise } from "../../lib/kreslo/textures/WorleyNoise.js";
-import { BezierPoint } from "../../lib/kreslo/units/BezierPoint.js";
+import { Color, Engine, Fill, RectangleShape } from "../../lib/kreslo/kreslo.js";
+import { WorleyNoise } from "../../lib/kreslo/lib/textures/WorleyNoise.js";
+
+
 
 async function init() {
     const canvasEl = document.getElementById('canvas')! as HTMLCanvasElement;

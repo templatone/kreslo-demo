@@ -1,11 +1,5 @@
-import { Engine } from "../../lib/kreslo/core/Engine.js";
-import { Fill, FontFeatures, Stroke } from "../../lib/kreslo/properties/index.js";
-import { EllipseShape, RectangleShape, PolygonShape, BezierShape } from "../../lib/kreslo/renderables/index.js";
-import { Color } from "../../lib/kreslo/styles/Color.js";
-import { BezierPoint } from "../../lib/kreslo/units/BezierPoint.js";
-import { Font } from "../../lib/kreslo/properties/Font.js";
-import { TextObject } from "../../lib/kreslo/renderables/TextObject.js";
-import { Vector } from "../../lib/kreslo/units/Vector.js";
+import { Color, Engine, Fill, Font, FontFeatures, RectangleShape, Stroke, TextObject } from "../../lib/kreslo/kreslo.js";
+
 
 
 
